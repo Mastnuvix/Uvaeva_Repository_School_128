@@ -179,3 +179,53 @@
               }
           }
       </style>
+      <footer>
+          <div class="footer-content">
+              <div>
+                  <h3>О школе</h3>
+                  <p>МБОУ "Школа №128" основана в 2000 году. В 2023 году прошла реконструкцию.</p>
+              </div>
+              
+              <div>
+                  <h3>Полезные ресурсы</h3>
+                  <ul>
+                      <li><a href="#">Министерство образования</a></li>
+                      <li><a href="#">Городской портал образования</a></li>
+                  </ul>
+              </div>
+              
+              <div>
+                  <h3>Социальные сети</h3>
+                  <ul>
+                      <li><a href="#">ВКонтакте</a></li>
+                      <li><a href="#">Телеграм</a></li>
+                  </ul>
+              </div>
+          </div>
+          <p>&copy; 2024 Школа №128. Все права защищены.</p>
+      </footer>
+      
+      <style>
+          /* Стили блока footer */
+          footer {
+              background: linear-gradient(135deg, var(--teal), var(--dark-blue));
+              color: var(--white);
+              padding: 20px 0;
+              text-align: center;
+          }
+          
+          .footer-content {
+              max-width: 1200px;
+              margin: 0 auto;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              gap: 30px;
+              padding: 0 20px;
+          }
+          
+          @media (max-width: 768px) {
+              .footer-content {
+                  grid-template-columns: 1fr;
+              }
+          }
+      </style>
