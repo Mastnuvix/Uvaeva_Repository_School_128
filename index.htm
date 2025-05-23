@@ -115,3 +115,67 @@
               }
           }
       </style>
+      <div class="content">
+          <main class="main-content">
+              <h2>Добро пожаловать на наш сайт!</h2>
+              <p>Муниципальное бюджетное общеобразовательное учреждение "Школа №128" - это современное образовательное учреждение, сочетающее в себе традиции качественного образования и инновационные подходы к обучению.</p>
+              
+              <h3>Последние новости</h3>
+              <article>
+                  <h4>Подготовка к новому учебному году</h4>
+                  <p>Заканчиваются работы по подготовке школы к новому учебному году. В кабинетах проведён ремонт, обновлено оборудование.</p>
+              </article>
+              
+              <article>
+                  <h4>Набор в первые классы</h4>
+                  <p>Начинается приём документов в первые классы на 2024-2025 учебный год. Подробности в разделе "Родителям".</p>
+              </article>
+          </main>
+          
+          <aside class="sidebar">
+              <h3>Быстрые ссылки</h3>
+              <ul>
+                  <li><a href="#">Расписание уроков</a></li>
+                  <li><a href="#">Электронный дневник</a></li>
+                  <li><a href="#">Школьное питание</a></li>
+                  <li><a href="#">ГИА и ЕГЭ</a></li>
+              </ul>
+              
+              <h3>Контакты</h3>
+              <p>Адрес: г. Барнаул, ул. Власихинская, 34</p>
+              <p>Телефон: +7 (495) 123-45-67</p>
+              <p>Email: info@school128.ru</p>
+          </aside>
+      </div>
+      
+      <style>
+          /* Стили блока content */
+          .content {
+              max-width: 1200px;
+              margin: 30px auto;
+              padding: 0 20px;
+              display: grid;
+              grid-template-columns: 2fr 1fr;
+              gap: 30px;
+          }
+          
+          .main-content {
+              background-color: var(--white);
+              padding: 25px;
+              border-radius: 8px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          }
+          
+          .sidebar {
+              background-color: var(--white);
+              padding: 20px;
+              border-radius: 8px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          }
+          
+          @media (max-width: 768px) {
+              .content {
+                  grid-template-columns: 1fr;
+              }
+          }
+      </style>
